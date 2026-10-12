@@ -373,6 +373,59 @@ address {
 	}
 }
 
-.hero .knapp{
-	background-color: black;
+.hovednav a {
+	position: relative;
+}
+
+.hovednav a::after {
+	content: "";
+	position: absolute;
+	height: 2px;
+	width: 0;
+	background-color: #ef8354;
+	bottom: 0;
+	left: 0;
+	transition: 500ms ease;
+}
+
+.hovednav a:hover::after {
+	width: 100%;
+	background-color: #bf5f36;
+}
+
+.hero .knapp:hover{
+	background-color: #bf5f36;
+}
+
+.hero .knapp:active{
+	background-color: #8b4526;
+}
+
+.menyliste li:nth-child(even) {
+	background-color: #ece3dc;
+}
+
+.menyliste li:nth-child(4)::after {
+	content: "NY!";
+	position: absolute;
+	top: -0.6rem;
+	right: -0.6rem;
+	background-color: #ef8354;
+	color: #ffffff;
+	font-size: 0.7rem;
+	font-weight: bold;
+	padding: 0.5rem;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.om-oss p:first-of-type::first-letter {
+	font-family: "Comic Sans MS", sans-serif;
+	font-size: 4rem;
+	font-weight: bold;
+	color: #ef8354;
+	line-height: 1;
+	float: left;
+	padding-right: 0.3rem
+	
 }

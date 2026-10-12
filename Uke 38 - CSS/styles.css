@@ -1,0 +1,40 @@
+
+body {
+    font-family: 'Gill Sans', Arial, sans-serif;
+
+    h1 {
+        color: hsl(11, 100%, 60%);
+        font-size: 32px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .boks1 {
+        background-color: cadetblue;
+        opacity: 0.5;    
+    }
+    /* rgba endrer bare opacity til fargen på boksen, mens opacity endrer opacity på hele boksen altså både fargen og teksten*/
+
+    .boks2 {
+        background-color: #FF5733;
+        text-transform: uppercase;
+    }
+
+    .boks3 {
+        background-color: rgb(255, 0, 34);
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn8d261lfqmUS8M-a3Mm9UBNU8Lp2BnY86FEEY6euL6DiHUBmctQCDdQczTHDLnL342y6YX2sKw1gahSCGzr_EXKHF-QsaQwNPMXV6M8k&s=10);
+        background-size: cover;
+        background-size: contain;
+    }
+
+    .tekst1 {
+        font-size: 1.5rem;
+    }
+
+    .tekst2 {
+        line-height: 1.6;
+    }
+
+    a {text-decoration: none;
+    }
+}
